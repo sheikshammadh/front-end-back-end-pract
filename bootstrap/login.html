@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="btsp.css">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="ml-auto">
+            <ul class="navbar-nav">
+                <li><a href="./index.html" class="nav-link">Home</a></li>
+                <li><a href="./about.html" class="nav-link">About</a></li>
+                <li><a href="./services.html" class="nav-link">Services</a></li>
+                <li><a href="./products.html" class="nav-link">products</a></li>
+                <li><a href="./contact.html" class="nav-link">Contact</a></li>
+                <li><a href="./login.html" class="nav-link" target="_parent">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <title>Login Form</title>
+    <style>
+        .container {
+            width: 100%;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .row div {
+            flex: 1;
+            margin: 5px;
+        }
+        label, input, select {
+            display: block;
+            width: 100%;
+        }
+        .row{
+            color: aqua;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <div>
+                    <form>
+                        <h4>Login Form:</h4>
+                        <div>
+                            <label for="first-name">First Name:</label>
+                            <input type="text" id="first-name"><br>
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name">
+                        </div><br>
+                        <div>
+                            <label for="region-code">Region Code:</label>
+                            <select id="region-code">
+                                <option value="+1">USA/Canada</option>
+                                <option value="+91">India</option>
+                                <option value="+44">UK</option>
+                                <option value="+61">Australia</option>
+                                <option value="+49">Germany</option>
+                                <option value="+33">France</option>
+                            </select><br>
+                            <label for="mobile-number">Enter Mobile Number:</label>
+                            <input type="numbers">
+                        </div><br>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email"><br>
+                            <label for="confirm-email">Confirm Email:</label>
+                            <input type="email" id="confirm-email">
+                        </div><br>
+                        <div>
+                            <input type="submit" class="btn btn-success" value="Submit">
+                        </div>        
+                    </form>
+                </div>
+            </div>
+            <div class="col3">
+                <img width="550" height="350" src="https://tse4.mm.bing.net/th?id=OIP.v882kAg7N-eiUdmtqg9aOwHaE8&pid=Api&P=0&h=180" alt="">
+                <h3></h3>
+                <p></p>
+            </div> 
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.QtUihijIWFyT0DlsL9rt2QHaHa&pid=Api&P=0&h=180" alt="">
+            </div>
+            <div class="col-3">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.20oEhHq5vpIdqpz11QT0IQHaHa&pid=Api&P=0&h=180" alt="">
+            </div>
+            <div class="col-3">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.ExvunN0EhHXpfYBUPtQkhgHaHa&pid=Api&P=0&h=180" alt="">
+            </div>
+            <div class="col-3">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.mUGxh00PiVNWqLxW8ouF-wHaGQ&pid=Api&P=0&h=180" alt="">
+            </div>
+            <div class="col-3">
+                <img src="" alt="">
+            </div>
+                
+            
+        </div>
+    </div>
+           
+</body>
+</html>
