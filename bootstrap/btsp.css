@@ -10330,3 +10330,25 @@
     }
   }
   /*# sourceMappingURL=bootstrap.css.map */
+  html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+  background-image: url('https://tse1.mm.bing.net/th?id=OIP.G6aQnLVhXX1c0Uc_qt0zvQHaFK&pid=Api&P=0&h=180');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+}
+.form label{
+  box-shadow: #c82333;
+  text-shadow: #dc3545;
+}
+.form input{
+  box-shadow: #c82333;
+  text-shadow: #dc3545;
+}
+
+
