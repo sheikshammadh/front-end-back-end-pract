@@ -10335,29 +10335,165 @@
     margin: 0;
 }
 body {
-  background-image: url('https://tse1.mm.bing.net/th?id=OIP.G6aQnLVhXX1c0Uc_qt0zvQHaFK&pid=Api&P=0&h=180');
+  background-image: url('https://image.freepik.com/free-psd/organic-food-top-view-grunge-background_23-2148322488.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
   height: 100vh;
 }
-.form label{
-  box-shadow: #c82333;
-  text-shadow: #dc3545;
+.form-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 .form input{
   box-shadow: #c82333;
   text-shadow: #dc3545;
+
 }
-body{
-  background-image: url('https://tse1.mm.bing.net/th?id=OIP.G6aQnLVhXX1c0Uc_qt0zvQHaFK&pid=Api&P=0&h=180');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0;
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.hero {
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  color: white;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content button {
+  background: #ff7f50;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.offer {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.offer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.offer-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.offer-cards .card {
+  background: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.recipe-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+
+.recipe-image img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.recipe-text {
+  text-align: center;
+}
+
+.stats {
+  background: #f8f9fa;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.stats h2 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.pricing {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.pricing .packages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing .packages .package {
+  background: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 20%;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  background: #343a40;
+  color: white;
+}
+
+.footer button {
+  background: #ff7f50;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.footer .social a {
+  color: #ff7f50;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}
+.header2{
+  background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/06/Solid-color-hd-wallpapers-download.jpg);
+}
+
 
 
 
