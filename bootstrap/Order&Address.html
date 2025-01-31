@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="btsp.css">
     <title>Orders& Address</title>
+    <style>
+        body {
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.Z0ugMI5jtAg5zCDlSYBqqgHaEo&pid=Api&P=0&h=180');
+    background-size: cover; /* This ensures the image covers the entire page */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-attachment: fixed; /* This makes sure the background stays fixed while scrolling */
+}
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-transparent">
@@ -37,7 +45,6 @@
         <option value="Kerala">Kerala</option>
     </select><br>
     <label style="color: white;" for="district">Select District:</label>
-    
     <select id="district">
         <option value="">--Select District--</option>
     </select><br>
@@ -47,8 +54,10 @@
     <input type="text">
     <label style="color: white;" for="Pincode">Pincode:</label>
     <input type="Pincode">
+    <div>
+    <input style="margin-left: 40%;" type="submit" class="btn btn-success">
+    </div>
 </div>
-
     <script>
         const districtsByState = {
             "Karnataka": ["Bengaluru Urban", "Bengaluru Rural", "Belagavi", "Bellary", "Vijayapura", "Chamarajanagar", "Chikballapur"],
