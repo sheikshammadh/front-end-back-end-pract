@@ -1,0 +1,2 @@
+loop means to iterate multiple times.
+to repeat the code multiple times

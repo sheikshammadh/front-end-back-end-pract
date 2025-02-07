@@ -19,7 +19,7 @@ print(type(a))#<class 'float'>
 
 #conv:
 w=123.14354
-print(int(w))
+print(int(w))#123
 
 #bool
 
@@ -37,3 +37,9 @@ print(False==1)#false
 
 a=1344+123j
 print(type(a))#<class 'complex'>
+
+
+'''
+data loss explicit type conversions
+no data loss implicit type conversions
+'''

@@ -4,7 +4,7 @@
 # c=1,2,3,4,5
 # print(c)#(1, 2, 3, 4, 5)
 
-a=b=c=22
-print(a)
-print(b)
-print(c)
+# a=b=c=22
+# print(a)#22
+# print(b)#22
+# print(c)#22

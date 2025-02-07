@@ -2,4 +2,5 @@
 k="shammadh"
 
 for s in k:
-    print(s)
+    print(s)#gives all letters in vertically
+

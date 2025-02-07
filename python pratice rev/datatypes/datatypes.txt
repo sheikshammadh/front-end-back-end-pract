@@ -1,0 +1,6 @@
+1.int(numbers)                    list[]                  frozenset
+2.float(dec.numb)                 tuple()                none
+3.boolean(true[1],false[0])       set{}                          
+4.string("text")                  dict{}
+5.complex(1[real],3j[imaginary])
+

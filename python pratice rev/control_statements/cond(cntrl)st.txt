@@ -1,0 +1,5 @@
+cond:                                     loop:                                         jumping:
+1.if                                      1.for                                         1.pass
+2.else                                    2.while                                       2.continue
+3.elif                                    3.nested loops                                3.break
+4.nested if 
