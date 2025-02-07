@@ -9,5 +9,32 @@ colection of characters
 # shyam="hi "
 # print(shyam.upper())#HI
 
-shyam="HI"
-print(shyam.lower())
+# shyam="HI"
+# print(shyam.lower())
+
+# shyam="hi this is shyam"
+# print(shyam.startswith("hi"))#true
+
+# shyam="hi this is shyam"
+# print(shyam.endswith("shyam"))#true
+
+
+# shyam="hi this is shyam"
+# print(shyam.startswith("this"))# false
+
+# shyam="hi this is shyam"
+# print(shyam.count(""))# 17 complete count with spaces too.
+
+
+# shyam="hi this is shyam"
+# print(shyam.count("this"))# how many worsds are present in the string.
+
+
+# shyam="hi this is shyam"
+# print(shyam.replace("this","hi"))# replaces in this as hi
+
+# shyam="hi this is shyam"
+# print(shyam.replace("th","is"))
+
+shyam="hi this is shyam"
+print(shyam.removeprefix("hi"))
