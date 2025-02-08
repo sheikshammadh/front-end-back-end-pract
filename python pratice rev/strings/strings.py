@@ -36,5 +36,18 @@ colection of characters
 # shyam="hi this is shyam"
 # print(shyam.replace("th","is"))
 
-shyam="hi this is shyam"
-print(shyam.removeprefix("hi"))
+# shyam="hi this is shyam"
+# print(shyam.removeprefix("hi"))#removes pref.
+
+# shyam="    hi hello    "
+# print(shyam.strip())# removes the spaces btw the string.(hi hello)
+
+shyam="  hi hello  "
+a=shyam.lstrip()
+print(len(a))
+
+a=shyam.rstrip()
+print(len(a))
+
+a=shyam.strip()
+print(len(a))
