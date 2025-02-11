@@ -1,0 +1,17 @@
+data type
+denoted with {} based on data in this
+dont allow duplicates
+no index, un orderd.
+do not allow mutable elements.
+
+set methods:
+add()
+update()
+pop()
+remove()
+
+operations:
+union()
+intersection()
+subset()
+super set()
