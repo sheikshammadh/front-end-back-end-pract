@@ -1,0 +1,16 @@
+it is a data type
+denoted with curly braces
+key value datatype. (key:value),(ab:"shyam"),("shyam":1234)...etc.
+key should be immutable.
+value should be mutable different types.
+key will act as a index. if we want to access we should access with the keys only no index will be done.
+no slicing.
+keys are unique.
+
+
+methods:
+get(to get)
+update(update or add)
+values()
+keys
+items(both keys and values called as items.)

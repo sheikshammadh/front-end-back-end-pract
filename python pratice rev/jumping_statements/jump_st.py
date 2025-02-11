@@ -15,9 +15,10 @@ continue
 # for i in "shyamnandu":
 #     if i=="n":
 #         continue
-#     print(i)
+#     print(i)# the first coming "n" will be skipped.
 
-for i in "shyamnandu":
-     if i=="s":
-         continue
-     print(i)
+# for i in "shyamnandu":
+#      if i=="s":
+#          continue
+#      print(i)# skips the first "s" letter.
+

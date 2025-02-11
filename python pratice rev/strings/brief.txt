@@ -1,0 +1,22 @@
+group of characters is called as string.
+
+defined in 3 types:
+single quote('sh')
+double quote("sh")
+triple quote('''sh''')
+
+methods:
+lower() changes into lowercases
+upper() changes into uppercase
+endswith() ends with desired character? or not? true or false.
+starts with() starts with the desired character? yes or not? true or false.
+replace() replace the characters in old value to new value.
+split() changes from string to list.
+count() counts the characters and words.
+rstrip() removes the spaces and trims the spaces between the characters
+lstrip() trims the space in left side.
+strip() trims the sapce in right side.
+remove prefix() removes the prefix of the word or character.
+remove suffix()removes the suffix of the word or the characters.
+index() it gives the index of the characters.
+find() it tells about the index, if no value it gives error.

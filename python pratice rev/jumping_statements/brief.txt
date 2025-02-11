@@ -1,0 +1,3 @@
+pass(ignore):if the code doesnt rememered use pass.
+break(loop terminate): used at looping that where the condition is true.
+continue(skip):skips the current iteration.

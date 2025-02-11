@@ -1,0 +1,8 @@
+denoted with []
+mutable datatype.
+store different types of elements.
+indexing:
+1.Forwaard indexing
+    starts from 0,1,2,3,4,5.......etc.
+2.Negative indexing:
+    0 to -1,-2,-3,-4.........etc.
