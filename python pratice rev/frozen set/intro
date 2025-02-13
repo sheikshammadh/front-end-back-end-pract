@@ -1,0 +1,3 @@
+frozen: freeze(no change)
+changes mutable data type into immutbale data type
+allow duplicates in in values and in output dont gives the non duplicates.

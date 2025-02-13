@@ -1,0 +1,38 @@
+when we dont know what statement or block of code is to be given then we can use jumping statements.
+there are three(3) types of jumping statements:
+they are:
+      1.Pass
+      2.Break
+      3.Continue
+
+1.Pass: 
+    it is used when we dont know the block of code or statement which we want to execute.
+if true:
+    pass
+else:
+    pass
+passes the iteration without errors.
+
+2.Break:
+    terminates the loop.
+for "shyam":
+if i="y":
+    break
+print(i)
+it breaks at the "y".
+output as "sh",here stops at "y".
+
+3.Continue:
+    skips what ever we given
+for i in "shyam":
+   if i= "a":
+      continue
+    print(i)
+it continues by skipping the given value.
+output as "shym", here "a" is skipped.
+
+
+
+
+
+    
