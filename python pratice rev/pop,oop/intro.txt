@@ -1,0 +1,11 @@
+pop(procedure oriented programming):           oop(object oriented programming):
+====================================           ======================================
+1.programs are devided into functions          1.programs are devided into objects
+2.top down approach                            2.bottom up approach
+3.no access specifiers                         3.provide access specifiers
+4.no data security                             4.data security
+5.no overloading concepts                      5.a.function overloading
+                                                 b.method overloading
+                                                 c.operator overloading
+
+
