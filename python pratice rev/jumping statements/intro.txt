@@ -16,7 +16,7 @@ passes the iteration without errors.
 2.Break:
     terminates the loop.
 for "shyam":
-if i="y":
+if i=="y":
     break
 print(i)
 it breaks at the "y".
@@ -25,7 +25,7 @@ output as "sh",here stops at "y".
 3.Continue:
     skips what ever we given
 for i in "shyam":
-   if i= "a":
+   if i== "a":
       continue
     print(i)
 it continues by skipping the given value.

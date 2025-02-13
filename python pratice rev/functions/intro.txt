@@ -1,0 +1,44 @@
+function is a block of statements or block of code is called as function.
+it performs the specific task only when it is called.
+it is a reusable and can invoke as much times as you can.
+
+functions are two types:
+    A.Inbuilt functions(Inbuilt by the system)
+    B.User defined functions(user given functions)
+
+it has two parts:
+    1.function definetion
+    2.function call
+
+1.function definetion:
+   function name(the values are here are called as parameters):
+
+2. function call:
+   function name(the values are here are called as arguments)
+
+ex:
+def greet(): #this is function defenetion
+    print("hello")  these 3 lines are called as body
+    print("hi")
+    print("good")
+greet()  # function call
+greet()
+greet().........invokes how many times we want.
+
+ex2:
+def add(a,b):
+    return a+b
+
+print(add(12,12))
+==============================================================
+nested funtion:
+function within a function called as function
+
+ex1:
+def outer():
+    print("outer")
+    def inner("hello")
+        print("inner)
+    inner()
+outer()
+
