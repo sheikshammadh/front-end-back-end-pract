@@ -22,3 +22,4 @@ print(a[::1])# [124, 234524, 'sdg', 25, 'asfwg '] gives the list as it is.
 print(a[::-1])# ['asfwg ', 25, 'sdg', 234524, 124] reverse the list.
 print(a[:1])# [124] index value as 0.
 print(a[:-1])#[124, 234524, 'sdg', 25] prints all the list items except -1 index.
+print(a[:])# prints the entire set.

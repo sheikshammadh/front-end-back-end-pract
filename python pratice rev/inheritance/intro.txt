@@ -7,3 +7,34 @@ child class is the class that inherits from another class,(also called derived c
         properties
 Parent→→→→→→→→→→→→→→child
 
+Single inheritance:
+    having one parent class(or)base class,one child class (or) child class.
+
+        parent
+          ↓
+        child
+
+Multi level inheritance:
+
+        parent-1  (grand father)    
+           ↓
+        parent-2  (father)
+    transfer from parent to parent.↑↓
+           ↓
+        parent-3  (child)
+
+Multiple level inheritance:
+    having two or more parent class and having one child class.
+
+    father        mother
+       ↓            ↓ 
+       ∟→   child  ←
+
+heierarcheal inheritance:
+having one parent class and having Multiple child classes.
+   
+          Parent
+  ---------------------
+  ↓          ↓        ↓
+  child-1  child-2  child-3
+
