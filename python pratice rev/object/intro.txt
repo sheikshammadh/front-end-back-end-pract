@@ -1,0 +1,15 @@
+it is a physical entity.
+we can create any number of objects for class.
+memory is allocated when object is created.
+object is insane of class.
+
+Syntax:
+    object_name=class_name()
+
+using object we can access the method and variables of class.
+
+syntax:
+    object_name.method()
+    object_name.variable()
+
+data and function are both called as object.

@@ -1,0 +1,17 @@
+class is a template.
+class is a blueprint for creating an object.
+
+ex:
+   class                object
+===========       ================
+    car           toyota,bmw,benz,ferrari...etc.
+    mobile        sasmsung,apple,redmi,xiomi....etc.
+    bike          tvs, pulsar,triumph,RE...etc.
+
+student:class
+their names are: objects
+
+
+syntax:
+   class():#class definition.
+       #class body

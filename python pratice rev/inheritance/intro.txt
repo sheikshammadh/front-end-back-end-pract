@@ -1,0 +1,9 @@
+inheritance:
+    inheritance allow us to define a class that inherits all the time months 
+and otheer properties from the other class.
+
+Parent class is the inherted from(also called base class).
+child class is the class that inherits from another class,(also called derived class).
+        properties
+Parent→→→→→→→→→→→→→→child
+
