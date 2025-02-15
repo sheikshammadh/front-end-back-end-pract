@@ -1,0 +1,28 @@
+exceptional handling:
+    interrupting normal execution of a code is called error (or) exception.
+    we will handle by using error handling or exceptional handling.
+
+when error occurs the python will normally stops the code and gives the error message.
+the exception can be handled using the try system.
+
+syntax:
+
+try:
+   risky code
+except:
+   print("error")
+else:
+   print("no error")
+finally:
+   print("always")
+
+try:
+   the try block lets you test a block of code for errors.
+except:
+   the except block lets you handle the error.
+else:
+   the else block lets you to execute code when there is no error.
+finally:
+   the finally block lets you ececute code regardless of the try and except blocks. 
+   it always execute.
+   

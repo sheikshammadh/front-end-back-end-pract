@@ -1,0 +1,16 @@
+Encapsulation:
+wrapping of variables and methods into single unit.
+
+Access specifiers:
+   1.public
+   2.private(__)it has double underscore
+   3.protected(_)it has sinlge underscore
+
+Encapsulation:
+encap:add
+capsulation:as one capsule.
+   _________________________
+   |_methods_|___variables_|→ adding the methods and variables into single unit.
+
+
+   

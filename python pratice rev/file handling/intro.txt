@@ -1,0 +1,25 @@
+file handling:
+    file handling refers to the process of working woth files on the file system.
+it involves operations such as reading from files, writing to files and appends data.
+
+types of files:
+    1.text files:
+        store data in the form of text.
+    2.binary files:
+        store data in the form of binary format which is not human readable.
+
+four primary functions are used in file handling in python.
+    1.open() opens a file and return a file object.
+    2.read() read data from file.
+    3.write() writes data into a file.
+    4.close() close the file revealing its source.
+
+modes:
+    a."r":
+        opens a existing file for a "read" operation.
+    b."w":
+        opens a n existing file for "write" operation. if the file already have some data then it will be over witten
+        but if the file is not present then it creates the file as well.
+    c."a":
+        opens an existing file for "append" operator.it wont override existing data.
+

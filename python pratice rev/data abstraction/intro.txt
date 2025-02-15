@@ -1,0 +1,8 @@
+Data abstraction:
+hidng of information
+
+the process of hiding the real in=mplememtation of an application from the user and
+emphasizing only on usage of it.
+
+we just use it, but we dont know the inside process how it is running.
+  
