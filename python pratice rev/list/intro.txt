@@ -6,3 +6,16 @@ indexing:
     starts from 0,1,2,3,4,5.......etc.
 2.Negative indexing:
     0 to -1,-2,-3,-4.........etc.
+
+list methods:
+    1.adding methods:
+       a.insert()
+       b.append()
+       c.extend()
+    2.delete methods:
+       a.pop()
+       b.remove()
+       c.clear()
+    3.other methods:
+       a.count()
+
