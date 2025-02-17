@@ -12,5 +12,5 @@ methods:
 get(to get)
 update(update or add)
 values()
-keys
+keys()
 items(both keys and values called as items.)
