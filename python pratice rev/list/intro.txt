@@ -10,8 +10,8 @@ indexing:
 list methods:
     1.adding methods:
        a.insert()
-       b.append()
-       c.extend()
+       b.append() it add only one value or one data.(only one value)
+       c.extend() it adds the multiples of data(1,2,3,4,5,6,7,8....etc.)
     2.delete methods:
        a.pop()
        b.remove()
