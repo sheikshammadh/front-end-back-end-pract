@@ -10,4 +10,4 @@ tuple operations:
    2.iteration
    3.membership operations
    4.identity operations
-   5. repetetion
+   5.repetetion

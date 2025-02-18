@@ -2,7 +2,9 @@ data type
 denoted with {} based on data in this
 dont allow duplicates
 no index, un orderd.
-do not allow mutable elements.
+do not allow mutable elements. like list,tuple,dict and array.
+it is homogenous. it stores only one type of data.
+
 
 set methods:
 add()

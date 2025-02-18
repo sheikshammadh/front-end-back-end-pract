@@ -1,8 +1,9 @@
-it is a data type
-denoted with curly braces
+it is a data type.
+denoted with curly braces.
+it doesnt allow duplicates.
 key value datatype. (key:value),(ab:"shyam"),("shyam":1234)...etc.
 key should be immutable.
-value should be mutable different types.
+value should be mutable different types.(int,float,string)
 key will act as a index. if we want to access we should access with the keys only no index will be done.
 no slicing.
 keys are unique.
@@ -14,3 +15,4 @@ update(update or add)
 values()
 keys()
 items(both keys and values called as items.)
+
