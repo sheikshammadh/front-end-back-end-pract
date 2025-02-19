@@ -88,6 +88,32 @@ let canVote = (age >= 18) ? 'Yes' : 'No';
 
 console.log(canVote); // 'Yes'
 */
+// ===========================================================================================
+//TYPE OPERATOR
+/*
+let message = "Hello, World!";
+let count = 123;
 
+console.log(typeof message); // 'string'
+console.log(typeof count);   // 'number'
+
+console.log(message instanceof String); // false (primitive string, not String object)
+*/
+// ===========================================================================================
+//CONDITIONAL OPERATOR
+
+let age = 20;
+let canVote = (age >= 18) ? 'Yes' : 'No';
+
+console.log(canVote); // Output: 'Yes'
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||
+let score = 75;
+let grade = (score >= 90) ? 'A' :
+            (score >= 80) ? 'B' :
+            (score >= 70) ? 'C' :
+            (score >= 60) ? 'D' : 'F';
+
+console.log(grade); // Output: 'C'
 
 
