@@ -4,7 +4,8 @@ dont allow duplicates
 no index, un orderd.
 do not allow mutable elements. like list,tuple,dict and array.
 it is homogenous. it stores only one type of data.
-
+mutable.
+compound data type.
 
 set methods:
 add()

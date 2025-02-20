@@ -101,13 +101,14 @@ console.log(message instanceof String); // false (primitive string, not String o
 */
 // ===========================================================================================
 //CONDITIONAL OPERATOR
-
+/*
 let age = 20;
 let canVote = (age >= 18) ? 'Yes' : 'No';
 
 console.log(canVote); // Output: 'Yes'
-
+*/
 // ||||||||||||||||||||||||||||||||||||||||||||||||||
+/*
 let score = 75;
 let grade = (score >= 90) ? 'A' :
             (score >= 80) ? 'B' :
@@ -115,5 +116,5 @@ let grade = (score >= 90) ? 'A' :
             (score >= 60) ? 'D' : 'F';
 
 console.log(grade); // Output: 'C'
-
+*/
 
