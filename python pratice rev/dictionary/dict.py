@@ -5,14 +5,14 @@ x={"a":1,"b":2,"c":3,"d":"shyam","e":123.123,"f":24,"g":"nandu",}
 
 # print(x.get("a"))1 it gets key and gives output as value.
 # x.update({"h":12344})
-# print(x.update)
-# print(x.keys())
-# print(x.clear())
-# print(x.copy())
+# print(x.update) This line would print the method reference for update, but it's not a useful operation. The correct operation is to print the dictionary after updating.
+# print(x.keys()) dict_keys(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'])
+# print(x.clear()) None (This line prints all the keys in the dictionary x.)
+# print(x.copy()) {'a': 1, 'b': 2, 'c': 3, 'd': 'shyam', 'e': 123.123, 'f': 24, 'g': 'nandu'}
 new_dict=x.fromkeys(["a","b","c"],1)
-print(new_dict)
-# print(x.items())
-# y = x.pop("e")
+# print(new_dict) {'a': 1, 'b': 1, 'c': 1}
+# print(x.items()) dict_items([('a', 1), ('b', 2), ('c', 3), ('d', 'shyam'), ('e', 123.123), ('f', 24), ('g', 'nandu')])
+# y = x.pop("e") 123.123
 # print(y)
 # print(x)  
 

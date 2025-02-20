@@ -1,3 +1,4 @@
+dict:
 it is a data type.
 denoted with curly braces.
 it doesnt allow duplicates.

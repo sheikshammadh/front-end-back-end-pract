@@ -11,7 +11,7 @@ it has two parts:
     2.function call
 
 1.function definetion:
-   function name(the values are here are called as parameters):
+   function name(the values are here are called as parameters)
 
 2. function call:
    function name(the values are here are called as arguments)
