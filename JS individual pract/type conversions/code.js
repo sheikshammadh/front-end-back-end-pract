@@ -16,7 +16,7 @@
 // var result='5'*'10'
 // console.log(result)50
 // =====================================================================================
-//implicit boolean to number: uses true=1 and false=0
+//implicit boolean to number: uses true=1 and all numbers as 1except 0, and false=0
 // var result='10'-true;
 // console.log(result)9 true value is 1 so it remobed 1 from 10
 
@@ -25,3 +25,9 @@
 
 // var result='5'*'5'+true;
 // console.log(result)26 true value is 1 so ir added 1 to 25
+// ==============================================================================================
+// var result='510';
+// console.log(result);
+// result=Number(result);
+// console.log(typeof(result))
+============================================================
