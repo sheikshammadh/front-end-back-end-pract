@@ -62,6 +62,12 @@
 // var str=Boolean(result);
 // console.log(str);false
 // console.log(typeof(str));Boolean
+// var a=134.124;
+// console.log(typeof(a));Number
+// console.log(parseInt(a));
+
 var a=134.124;
-console.log(typeof(a));Number
+console.log(typeof(a));
 console.log(parseInt(a));
+b=parseInt(a);
+console.log(b);134
