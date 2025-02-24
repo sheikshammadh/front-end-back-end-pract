@@ -30,4 +30,11 @@
 // console.log(result);
 // result=Number(result);
 // console.log(typeof(result))
-============================================================
+//============================================================
+var result="12345";
+console.log(result);
+result=Number(result);
+console.log(typeof(result));
+var str=String(result);
+console.log(str);
+console.log(typeof(str));
