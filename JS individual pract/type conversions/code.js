@@ -66,8 +66,14 @@
 // console.log(typeof(a));Number
 // console.log(parseInt(a));
 
-var a=134.124;
-console.log(typeof(a));
+// var a=134.124;
+// console.log(typeof(a));
+// console.log(parseInt(a));
+// b=parseInt(a);
+// console.log(b);134
+
+var a="134.124";
+console.log(typeof(a)); String
 console.log(parseInt(a));
 b=parseInt(a);
 console.log(b);134
