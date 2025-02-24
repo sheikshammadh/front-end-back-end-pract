@@ -47,10 +47,18 @@
 // console.log(str);
 // console.log(typeof(str));Boolean
 
-var result="-12345";
-console.log(result);-12345
-result=Boolean(result);
-console.log(typeof(result));Boolean
+// var result="-12345";
+// console.log(result);-12345
+// result=Boolean(result);
+// console.log(typeof(result));Boolean
+// var str=Boolean(result);
+// console.log(str);true
+// console.log(typeof(str));Boolean
+
+var result=0;
+console.log(result);0
+result=Boolean(result);Boolean
+console.log(typeof(result));
 var str=Boolean(result);
-console.log(str);true
+console.log(str);false
 console.log(typeof(str));Boolean
