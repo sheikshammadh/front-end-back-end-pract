@@ -39,10 +39,18 @@
 // console.log(str);12345
 // console.log(typeof(str));string
 
-var result="12345";
-console.log(result);12345
-result=Boolean(result);Boolean
-console.log(typeof(result));
-var str=Boolean(result);true
-console.log(str);
+// var result="12345";
+// console.log(result);12345
+// result=Boolean(result);Boolean
+// console.log(typeof(result));
+// var str=Boolean(result);true
+// console.log(str);
+// console.log(typeof(str));Boolean
+
+var result="-12345";
+console.log(result);-12345
+result=Boolean(result);
+console.log(typeof(result));Boolean
+var str=Boolean(result);
+console.log(str);true
 console.log(typeof(str));Boolean
