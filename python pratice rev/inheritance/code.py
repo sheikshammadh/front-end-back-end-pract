@@ -12,7 +12,7 @@ hierarchical inhertance
 # sinlge inheritance
 # one parent class and one child class
 
-'''
+
 class parnent():
     def display(self):
         print("parent class")
@@ -22,8 +22,8 @@ class child(parnent):
 a=child()
 a.display()#parent class
 a.show()#child class
-'''
-'''
+
+
 class shyam():
     def me(self):
         print("iam the father of sana")
@@ -33,12 +33,12 @@ class sana(shyam):
 a=sana()#   defining the a with child class
 a.me()# ian=m the father of sana
 a.her()# iam the child
-'''
+
 # ======================================================================
 
 # multi level inheritance.
 # having more parent classes more than one.
-'''
+
 class grandfather():
     def third(self):
         print("iam the grandfather")
@@ -52,11 +52,11 @@ a=child()
 a.third()#grandfather
 a.second()# father of child
 a.first()#child
-'''
+
 # ==============================================================
 # multiple inheritance.
 # having two parent class and one child class.
-'''
+
 class father():
     def parent1(self):
         print("iam the father")
@@ -70,10 +70,10 @@ a=child()#defining a as child()
 a.parent1()#iam the father.
 a.parent2()# iam the mother.
 a.childself()# iam the child.
-'''
+
 # ================================================================
 #hierarchical inheritance
-'''
+
 class father():#we can use any class name
     def parent(self):# we can use any method name
         print("iam the father")#father class method 
@@ -99,7 +99,7 @@ a1.child_1()#child class method
 a2.child_2()#child 2
 a3.child_3()#child 3
 a4.child_4()#child 4
-'''
+
 # ================================================================
 
  
