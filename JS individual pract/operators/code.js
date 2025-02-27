@@ -117,4 +117,5 @@ let grade = (score >= 90) ? 'A' :
 
 console.log(grade); // Output: 'C'
 */
+//code operators are use for the opertaing the operatios in the 
 
