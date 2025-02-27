@@ -1,0 +1,8 @@
+variables are the containers or a memory storage locator for the value or data.
+
+
+Rules:
+1.Alphabets
+2. No Number and symbols
+3._start
+4.Case sensitive

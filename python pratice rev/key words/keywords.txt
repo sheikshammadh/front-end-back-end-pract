@@ -1,0 +1,17 @@
+to get keywords list in Python
+(import keywords
+keywords.kwlist)
+
+there are 35 key words in Python.
+for control statements:
+   1.if
+   2.elif
+   3.else
+   4.ifelse
+5.while
+6.import
+7.pass....etc.
+
+
+
+

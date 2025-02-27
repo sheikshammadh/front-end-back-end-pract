@@ -1,7 +1,8 @@
+# comments are used for the code readability and for understanding.
+
 #comments are two types:
 #1.sinle line
 '''
-multiline comments
+2.multiline comments
+there are also known as docstrings
 '''
-# single line comment:
-# a sinle line comment used for readability and understanding.
