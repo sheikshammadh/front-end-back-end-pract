@@ -8,6 +8,8 @@ console.log(b);
 c=true;
 console.log(c);
 */
+// there are some data types in JS a like as Python.
+// but they are used in various ways.
 
 
  
