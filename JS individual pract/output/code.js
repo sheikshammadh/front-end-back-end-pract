@@ -6,3 +6,5 @@
 
 // Explicit Type Conversion
 // Explicit conversions are done manually by using built-in functions. Here are some common examples:
+
+//js is the core for the developmnent
