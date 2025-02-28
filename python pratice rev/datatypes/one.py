@@ -43,3 +43,10 @@ print(type(a))#<class 'complex'>
 data loss explicit type conversions
 no data loss implicit type conversions
 '''
+
+s=int(input("enter the number:"))
+n=float(input("enter the number:"))
+S=s+n
+print(S)
+
+

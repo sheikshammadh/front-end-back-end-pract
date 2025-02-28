@@ -1,8 +1,11 @@
-variables are the containers or a memory storage locator for the value or data.
+variables:
+    variables are the containers or a memory storage locator for the value or data.
 
 
 Rules:
 1.Alphabets
-2. No Number and symbols
-3._start
-4.Case sensitive
+2.starts with No Number and symbols
+3.(_)start underscore
+4.Case with sensitive
+5.keyword are not used for variables.
+ 

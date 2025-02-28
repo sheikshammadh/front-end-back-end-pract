@@ -1,0 +1,10 @@
+operators types:
+     1.Assignment op.   (=,+=,-=,*=,/=)
+     2.Arithmatic op.   (+,-,*,/,//,**,)
+     3.Logical op.      (AND,OR,NOT,NOR) gives result as True or False.
+     4.Identity op.     (is, is not)
+     5.Comparision op   (<,>,<=,>=,==)
+     6.Bitwise op.      (&, |, ^, ~, <<, >>)
+     7.Membership op.   (in, not in)
+
+
