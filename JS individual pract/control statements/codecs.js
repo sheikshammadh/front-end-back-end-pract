@@ -9,9 +9,9 @@ else if(shyam<nandu)
 {
     console.log("yes shyam is less than nandu")
 }
-switch(nandu)
+switch(harika)
 {
-    case 10: console.log("hi this is shyam");
+    case 143: console.log("hi this is shyam");
     break;
     case 1432: console.log("hi this is nandu");
     break;
