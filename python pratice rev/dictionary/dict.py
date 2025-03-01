@@ -18,3 +18,27 @@ new_dict=x.fromkeys(["a","b","c"],1)
 
 # print(x.popitem("g","shyam"))
 # print(x.values())
+# ====================================================================================
+# # update():
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# thisdict.update({"year": 2020})
+# thisdict.update({"model":"ecosport"})
+# thisdict.update({"brand":"ford"})
+
+# print(thisdict)#{'brand': 'ford', 'model': 'ecosport', 'year': 2020}
+# =====================================================================================
+# Accessing Items:
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict["model"]#mustang
+x=thisdict["brand"]#ford
+x=thisdict["year"]#1964
+print(x)
+# =================================================================================
