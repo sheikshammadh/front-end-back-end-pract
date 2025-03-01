@@ -60,10 +60,32 @@ new_dict=x.fromkeys(["a","b","c"],1)
 # "year": 1964
 # }
 
-# x = car.values()
+# x = car.values()# here we getting values, if we want keys replace values into keys.
 # print(x)#dict_values(['Ford', 'Mustang', 1964])
 # car["color"] = "white"
 # print(x)#dict_values(['Ford', 'Mustang', 1964, 'white'])
 # car ["millage"]="1234567"
 # print(x)#dict_values(['Ford', 'Mustang', 1964, 'white', '1234567'])
 # =====================================================================================
+
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# x = thisdict.items()
+# print(x)#([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+# =====================================================================================================
+# Check if "model" is present in the dictionary:
+# thisdict = {
+#   "brand": "Ford",
+#   "type": "Mustang",
+#   "year": 1964
+# }
+# if "model" in thisdict:
+#   print("Yes, 'model' is one of the keys in the thisdict dictionary")
+# else:
+#     print("no there is no model")
+# =============================================================================================================
