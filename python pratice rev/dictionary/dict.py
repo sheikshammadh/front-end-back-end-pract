@@ -32,13 +32,38 @@ new_dict=x.fromkeys(["a","b","c"],1)
 # print(thisdict)#{'brand': 'ford', 'model': 'ecosport', 'year': 2020}
 # =====================================================================================
 # Accessing Items:
-thisdict =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-x = thisdict["model"]#mustang
-x=thisdict["brand"]#ford
-x=thisdict["year"]#1964
-print(x)
+# thisdict =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# x = thisdict["model"]#mustang
+# x=thisdict["brand"]#ford
+# x=thisdict["year"]#1964
+# print(x)
 # =================================================================================
+# Get Keys
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# x = thisdict.keys()
+
+# print(x)#dict_keys(['brand', 'model', 'year'])
+# ===========================================================================
+# Add a new item to the original dictionary, and see that the keys list gets updated as well:
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# x = car.values()
+# print(x)#dict_values(['Ford', 'Mustang', 1964])
+# car["color"] = "white"
+# print(x)#dict_values(['Ford', 'Mustang', 1964, 'white'])
+# car ["millage"]="1234567"
+# print(x)#dict_values(['Ford', 'Mustang', 1964, 'white', '1234567'])
+# =====================================================================================
