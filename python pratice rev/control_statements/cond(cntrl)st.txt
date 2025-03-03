@@ -7,9 +7,25 @@ condiotinal/descision mking:              loop:                                 
 2.else                                    2.while                                       2.continue
 3.elif                                    3.nested loops                                3.break
 4.nested if 
+==========================================================================================================================
+If Statement:
+    The if statement is used to test a condition. If the condition is True, the code block under the if statement will 
+execute.
+Elif Statement:
+    The elif (short for "else if") statement allows you to check multiple conditions after the if statement. If the if 
+condition is False, the program will check the elif condition.
+Else Statement:
+    The else statement is used to execute a block of code if none of the preceding if or elif conditions are True.
+==========================================================================================================================
 
+For Loops:
+    A for loop is used when you know in advance how many times you want to execute a statement or a block of statements. 
+It iterates over a sequence (like a list, tuple, dictionary, set, or string) or other iterable objects.
+While Loops:
+    A while loop repeats as long as a specified condition is True. It is used when you do not know in advance how many 
+times you want to execute a block of statements.
+=========================================================================================================================
 examples for the pass, continue, and break statements in Python.
-
 pass:
     The pass statement is a null operation; nothing happens when it executes. It can be used as a placeholder
 for future code or in situations where a statement is syntactically required but you don't want to execute any code.
@@ -18,4 +34,4 @@ continue:
 The continue statement skips the current iteration of the loop and proceeds with the next iteration.
 
 break:
-The break statement exits the loop immediately, skipping all remaining iterations.
+    The break statement exits the loop immediately, skipping all remaining iterations.
