@@ -1,4 +1,4 @@
-x={"a":1,"b":2,"c":3,"d":"shyam","e":123.123,"f":24,"g":"nandu",}
+# x={"a":1,"b":2,"c":3,"d":"shyam","e":123.123,"f":24,"g":"nandu",}
 # print(type(x))dict
 # print(x["g"])nandu
 # print(x["c"])3
@@ -9,7 +9,7 @@ x={"a":1,"b":2,"c":3,"d":"shyam","e":123.123,"f":24,"g":"nandu",}
 # print(x.keys()) dict_keys(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'])
 # print(x.clear()) None (This line prints all the keys in the dictionary x.)
 # print(x.copy()) {'a': 1, 'b': 2, 'c': 3, 'd': 'shyam', 'e': 123.123, 'f': 24, 'g': 'nandu'}
-new_dict=x.fromkeys(["a","b","c"],1)
+# new_dict=x.fromkeys(["a","b","c"],1)
 # print(new_dict) {'a': 1, 'b': 1, 'c': 1}
 # print(x.items()) dict_items([('a', 1), ('b', 2), ('c', 3), ('d', 'shyam'), ('e', 123.123), ('f', 24), ('g', 'nandu')])
 # y = x.pop("e") 123.123

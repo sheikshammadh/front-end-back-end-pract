@@ -1,5 +1,21 @@
-cond:                                     loop:                                         jumping:
+Control flow statements:
+    Control flow statements are used to determine the order in which instructions are executed in a program. 
+They help control the flow of a program's execution based on certain conditions or loops.
+
+condiotinal/descision mking:              loop:                                         jumping:
 1.if                                      1.for                                         1.pass
 2.else                                    2.while                                       2.continue
 3.elif                                    3.nested loops                                3.break
 4.nested if 
+
+examples for the pass, continue, and break statements in Python.
+
+pass:
+    The pass statement is a null operation; nothing happens when it executes. It can be used as a placeholder
+for future code or in situations where a statement is syntactically required but you don't want to execute any code.
+
+continue:
+The continue statement skips the current iteration of the loop and proceeds with the next iteration.
+
+break:
+The break statement exits the loop immediately, skipping all remaining iterations.
