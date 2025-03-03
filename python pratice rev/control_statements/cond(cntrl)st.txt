@@ -27,8 +27,9 @@ times you want to execute a block of statements.
 =========================================================================================================================
 examples for the pass, continue, and break statements in Python.
 pass:
-    The pass statement is a null operation; nothing happens when it executes. It can be used as a placeholder
-for future code or in situations where a statement is syntactically required but you don't want to execute any code.
+    The pass statement is a null operation; 
+    nothing happens when it executes. It can be used as a placeholder  for future code or in situations where a 
+statement is syntactically required but you don't want to execute any code.
 
 continue:
 The continue statement skips the current iteration of the loop and proceeds with the next iteration.
