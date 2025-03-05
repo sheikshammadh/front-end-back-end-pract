@@ -1,6 +1,8 @@
-denoted with []
-mutable datatype.
-store different types of elements.
+list:
+    used to store multiple values in a single varibles.
+    denoted with []
+    mutable datatype.
+    store different types of elements.
 indexing:
 1.Forwaard indexing
     starts from 0,1,2,3,4,5.......etc.
