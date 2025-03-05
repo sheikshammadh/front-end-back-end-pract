@@ -5,3 +5,5 @@ need a name like regular function. Y ou can think of it as a quick one line func
 syntax:
 Lambda arguments:expression
 
+    You can also use lambda functions with other functions that expect a function as an argument. 
+A common example is with the map() function:
