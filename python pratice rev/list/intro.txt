@@ -3,6 +3,7 @@ list:
     denoted with []
     mutable datatype.
     store different types of elements.
+    duplicates allow.
 indexing:
 1.Forwaard indexing
     starts from 0,1,2,3,4,5.......etc.

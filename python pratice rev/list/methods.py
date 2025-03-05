@@ -11,8 +11,8 @@ a.append("shyam")
 a.extend([124,1234,23,3,35])# extends the characters contineously.
 print(a)# adds at last site.
 print(a.count(25))# counts how many numbers are present in the given data.
-print(a.pop(3))# it prints the indexing number.3 indexes the 25 so 25 is output
-print(a.index(25))#it gives the indexing number.
+print(a.pop(3))# it prints the indexing number.3 indexes the 25.
+# print(a.index(25))#it gives the indexing number.
 # looping:
 for i in [124,234524,"sdg",25,"asfwg "]:
     print(i) #for loop.looping
@@ -23,3 +23,5 @@ print(a[::-1])# ['asfwg ', 25, 'sdg', 234524, 124] reverse the list.
 print(a[:1])# [124] index value as 0.
 print(a[:-1])#[124, 234524, 'sdg', 25] prints all the list items except -1 index.
 print(a[:])# prints the entire set.
+
+
