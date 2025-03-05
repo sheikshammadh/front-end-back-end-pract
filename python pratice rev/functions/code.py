@@ -72,7 +72,26 @@ function call
       #inner
 # =========================================================================
 
-def add(a,b):
-    print(a+b)
-def sub(a,b):
-    print(a-b)
+# def add(a,b):
+#     print(a+b)
+# def sub(a,b):
+#     print(a-b)
+
+# def shyam(*arguments):#(*Arguments) 
+#     return
+# print(1,2,3,4,5,6,7,8,90)
+
+# *Arguments:
+#    when we dont know how many argumentsshould be passed then we can use "* arguments".this one argument 
+# can hold multiple values or data.
+
+# def shyam(*arguments):#(*Arguments) 
+#     return
+# print(1,2,3,4,5,6,7,8,90)
+
+# **keyword arguments:
+#     when we dont know how many arguments should we take. then we can use **keywordArguments.
+# def function(**keywordArguments):
+#     print(keywordArguments)
+# function(name="shyam", age=24, gender="male")
+

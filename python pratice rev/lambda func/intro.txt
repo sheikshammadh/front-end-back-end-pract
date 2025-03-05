@@ -1,0 +1,7 @@
+Lambda function is a small, anonymous function. it is called anonymous because of it doesnt 
+need a name like regular function. Y ou can think of it as a quick one line function.
+
+
+syntax:
+Lambda arguments:expression
+
