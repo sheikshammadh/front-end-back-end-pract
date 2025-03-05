@@ -26,6 +26,5 @@ print(a[:1])# [124] index value as 0.
 print(a[:-1])#[124, 234524, 'sdg', 25] prints all the list items except -1 index.
 print(a[:])# prints the entire set.
 print(b.sort(reverse=True))#reverse the string.
-
-
-#print(a.sort())# cannot give with different types of data type. it needs only one data type either numbers or strings......etc.
+print(a.sort())# cannot give with different types of data type. it needs only one data type either numbers or strings......etc.
+print(b.count)
