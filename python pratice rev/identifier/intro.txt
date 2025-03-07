@@ -1,0 +1,13 @@
+Identifier rules:
+    1.should contain a-z
+                     A-Z
+                     0-9
+                     (_)
+    2.should not starts with digits[0-9]
+    3.should not contains any special symbols or characters.
+    4.should not use keywords as identifiers.
+    5.These are case sensitive.
+
+keywords/RW:
+    some keywords are resrved for the specific purpose.
+

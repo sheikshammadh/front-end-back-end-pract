@@ -44,9 +44,15 @@ data loss explicit type conversions
 no data loss implicit type conversions
 '''
 
-s=int(input("enter the number:"))
-n=float(input("enter the number:"))
-S=s+n
-print(S)
+# s=int(input("enter the number:"))
+# n=float(input("enter the number:"))
+# S=s+n
+# print(S)
 
 
+# None type:
+def greet():
+    pass
+greet()
+print(greet())# None
+print(type(greet()))#<class 'NoneType'>
