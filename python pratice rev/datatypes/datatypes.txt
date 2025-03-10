@@ -4,11 +4,27 @@ It determines the kind of operations that can be performed on the data and how t
 stored in memory.
 
 
-1.int(numbers)                    list[]                 frozenset
+1.int(numbers)                    list[] mutable||       frozenset
 2.float(dec.numb)                 tuple()                none
-3.boolean(true[1],false[0])       set{}                  range        
-4.string("text")                  dict{}                 bites
-5.complex(1[real],3j[imaginary])                         bytearray
+3.boolean(true[1],false[0])       set{} ||mutable||      range        
+4.string("text")                  dict{} ||mutable||     bites
+5.complex(1[real],3j[imaginary])                         bytearray ||mutable||
 
+Mutability:
+    We can change the values or data by using some methods is called as Mutability.
 
+inbult functions:
+    input()
+    print()
+    type()
+    id()
+    min()
+    len()
+    map()
+    filter()
+    bin()
+    oct()
+    hex()
 
+byte and bytearray:
+    allowed range between 0 to 255
