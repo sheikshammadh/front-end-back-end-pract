@@ -27,4 +27,4 @@ inbult functions:
     hex()
 
 byte and bytearray:
-    allowed range between 0 to 255
+    allowed range between 0 to 255. if the values are more than 255, then it will gives you the error.
