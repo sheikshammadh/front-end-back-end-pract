@@ -1,10 +1,32 @@
 operators types:
      1.Assignment op.   (=,+=,-=,*=,/=)
-     2.Arithmatic op.   (+,-,*,/,//,**,)
-     3.Logical op.      (AND,OR,NOT,NOR) gives result as True or False.
+     2.Arithmatic op.   (+,-,*,/,//,**,)  [/ gives and // gives]
+     3.Logical op.      (AND,OR,NOT,NOR)  [gives result as True or False.]
      4.Identity op.     (is, is not)
      5.Comparision op   (<,>,<=,>=,==)
      6.Bitwise op.      (&, |, ^, ~, <<, >>)
      7.Membership op.   (in, not in)
 
 
+
+     ___+___
+     ↓     ↓
+cancats    addition  
+
+concat:
+   it add only when the both are same datatype.
+
+addition:
+   it addition when the both are numerics.
+
+     ____*_____  
+     ↓        ↓
+multiply   repetetion
+
+multiply:
+    it multiplies the data.
+repetetion:
+    when both are srtings it gives type error. when it has int and string it repeats the string n number of times.
+
+
+identity and membership operators always gives as bool type.
