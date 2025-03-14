@@ -163,3 +163,8 @@
 # i=7
 # for i in range(1,11):
 #     print(7,"*",i,"=",7*i)
+employee_name=['rahul','vinay','dhanush','manoj','kishan']
+i=0
+while i==0:
+    print(f"{employee_name}")
+    i=i+1
