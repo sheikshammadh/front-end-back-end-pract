@@ -180,7 +180,12 @@
 #     print(i)
 #     i=i-1
 
-i=1
-while i<=100:
+# i=1
+# while i<=100:
+#     print(i)
+#     i=i+1
+
+i=100
+while i>51:
     print(i)
-    i=i+1
+    i=i-1
