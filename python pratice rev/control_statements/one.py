@@ -158,5 +158,8 @@
 # for i in eid:
     # print("hi")#prints hi 15 times.bcz of the length of the seq.eid.
 
-for i in range(2, 10,2):
-    print(i)
+# for i in range(2, 10,2):
+#     print(i)
+# i=7
+# for i in range(1,11):
+#     print(7,"*",i,"=",7*i)
