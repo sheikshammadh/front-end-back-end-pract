@@ -152,9 +152,11 @@
 
 
 # for loop:
-eid=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+# eid=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 # for i in eid:
 #     print(i)
-for i in eid:
-    print("hi")#prints hi 15 times.bcz of the length of the seq.eid.
+# for i in eid:
+    # print("hi")#prints hi 15 times.bcz of the length of the seq.eid.
 
+for i in range(2, 10,2):
+    print(i)
