@@ -168,8 +168,14 @@
 # while i==0:
 #     print(f"{employee_name}")
 #     i=i+1
-start = 1
-end = 20
-for i in range(start, end + 1):
-    if i % 2 == 0:
-        print(i)
+# start = 1
+# end = 20
+# for i in range(start, end + 1):
+#     if i % 2 == 0:
+#         print(i)
+
+# 100 to 51
+i=100
+while i>=51:
+    print(i)
+    i=i-1
