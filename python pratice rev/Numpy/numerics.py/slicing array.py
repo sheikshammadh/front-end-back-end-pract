@@ -1,4 +1,5 @@
 import numpy as sn
+b=5
 a=sn.array([[1,2,3,4,5,6],[1,2,3,4,5,6]])
 #print(a)#[[1 2 3 4 5 6] column0
 #         [1 2 3 4 5 6]] column1
