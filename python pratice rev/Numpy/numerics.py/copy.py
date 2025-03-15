@@ -1,3 +1,4 @@
+import numpy as sn
 #copy (for changing in the indexing place values bby copy method in different arrays )
 l=sn.array([1,2,3,4,5])
 b=l#[1 2 3 4 5]

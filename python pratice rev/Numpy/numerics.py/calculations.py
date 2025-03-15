@@ -1,3 +1,4 @@
+import numpy as sn
 #*(multiply) all calculations are done.(+,-,*,/,//,%,**)
 o=sn.array([21,23,34,4])
 m=o+3
