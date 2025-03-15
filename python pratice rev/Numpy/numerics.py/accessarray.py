@@ -73,10 +73,4 @@ k=sn.identity(5)# prints 5 rows and 5 col like below.
 # l
 # print(l)#[1 2 3 4 5]
 
-# *(multiply) all calculations are done.(+,-,*,/,//,%,**)
-# o=sn.array([21,23,34,4])
-# m=o+3
-# print(m)#[24 26 37  7]
-# n=o*6
-# print(n)#[126 138 204  24]
 
