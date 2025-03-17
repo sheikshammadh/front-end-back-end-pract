@@ -194,3 +194,6 @@
 # while i>0:
 #     print(i)
 #     i=i-1
+
+# for i in range(1,101):
+#     print(i,"sorry nana. iam sorry....")
