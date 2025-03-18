@@ -1,0 +1,16 @@
+Pandas:
+   it is a pyhton library used for the working with the data sets.
+   the name is reference from both "Panel Data", and "Python Data Analysys."
+   It is created by Wes McKinney in 2008.
+Functions:
+   we can analyze,clean,exploring and manupulationg the data sets.
+   
+Data Frame:
+    by adding two Series is called as data frame.
+    
+Types of data holding by the Pandas:
+    1.Numerical data
+    2.Text lables
+    3.Functions
+    4.objects
+
