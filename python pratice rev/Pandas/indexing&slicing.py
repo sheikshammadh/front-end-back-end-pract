@@ -7,3 +7,6 @@ print('value of aa in shyam',shyam['aa'])#in shyam aa refers to 1,bb refers to 2
 #value of AA in shyam 1
 print('value of DD in shyam',nandu['DD'])#in nandu AA refers to 3,BB refers to 4.......etc.
 #value of DD in shyam 6
+# print('value of ff in shyam',nandu['ff'])#key error
+print('value of EE in shyam',nandu['EE'])
+
