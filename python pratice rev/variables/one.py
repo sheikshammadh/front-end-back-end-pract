@@ -32,3 +32,6 @@
 # a=1
 # print(a)
 # print(A)
+
+# a,b,c=(one,two,three)
+# print(a)

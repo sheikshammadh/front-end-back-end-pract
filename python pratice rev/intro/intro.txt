@@ -35,3 +35,8 @@ TensorFlow: A library for machine learning and artificial intelligence.
 
 Python's simplicity and powerful features have made it one of the most popular programming languages in the world. 
 Whether you're just starting out or looking to expand your skills, Python is a great language to learn and use.
+
+Compiler:
+    Line by line execution.
+Interpreter:  
+    Reads all the code at a time and gives error.
