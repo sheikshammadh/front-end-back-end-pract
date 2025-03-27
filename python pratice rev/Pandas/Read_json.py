@@ -194,9 +194,9 @@ df=pnd.read_json('D:\Learn - Full Stack\practices,front end and back end\python 
 # max_rows:
 #print(pnd.options.display.max_rows)#60
 #print(pnd.options.display.max_columns)#0
-pnd.options.display.max_rows=8#Increase the maximum number of rows to display the entire DataFrame:
-df=pnd.read_csv('D:\Learn - Full Stack\practices,front end and back end\python pratice rev\Pandas\data.csv')
-print(df)
+# pnd.options.display.max_rows=8#Increase the maximum number of rows to display the entire DataFrame:
+# df=pnd.read_csv('D:\Learn - Full Stack\practices,front end and back end\python pratice rev\Pandas\data.csv')
+# print(df)
 '''
            Duration  Pulse  Maxpulse  Calories
 0     0          60    110       130     409.1
@@ -209,3 +209,7 @@ print(df)
 8     167        75    120       150     320.4
 9     168        75    125       150     330.4
 '''
+# pnd.options.display.max_rows=8#Increase the maximum number of rows to display the entire DataFrame:
+# df=pnd.read_csv('D:\Learn - Full Stack\practices,front end and back end\python pratice rev\Pandas\data.csv')
+# print(df.add)
+      #error.
