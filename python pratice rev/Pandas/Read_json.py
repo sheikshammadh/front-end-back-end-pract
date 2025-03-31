@@ -212,3 +212,4 @@ df=pnd.read_json('D:\Learn - Full Stack\practices,front end and back end\python 
 # pnd.options.display.max_rows=8#Increase the maximum number of rows to display the entire DataFrame:
 # df=pnd.read_csv('D:\Learn - Full Stack\practices,front end and back end\python pratice rev\Pandas\data.csv')
 # print(df.add)
+      #error.
