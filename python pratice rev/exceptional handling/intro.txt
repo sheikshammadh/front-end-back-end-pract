@@ -16,3 +16,13 @@ else:
 finally:
    print("always")
 
+try:
+   the try block lets you test a block of code for errors.
+except:
+   the except block lets you handle the error.
+else:
+   the else block lets you to execute code when there is no error.
+finally:
+   the finally block lets you ececute code regardless of the try and except blocks. 
+   it always execute.
+   
