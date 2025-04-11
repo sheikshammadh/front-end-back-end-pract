@@ -7,7 +7,7 @@ wwe will handle by using exceptional handling
 a=10
 # print(c)error.c is not defined
 try:
-    print(c)# risky code(it has error so this is not executed)
+    print(a)# risky code(it has error so this is not executed)
 except:
     print("error")#error
 else:

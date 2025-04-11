@@ -54,3 +54,11 @@ class computer():
 # b=pro()# calling the class function
 # b.admin()#15 calling the object with class value.
 # print(b.student)# calling the object with class and object
+
+
+
+
+
+
+
+        
