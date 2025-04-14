@@ -1,3 +1,5 @@
+
+Class:
 it is a physical entity.
 we can create any number of objects for class.
 memory is allocated when object is created.
@@ -13,3 +15,9 @@ syntax:
     object_name.variable()
 
 data and function are both called as object.
+
+It contains variables and methods.
+
+    1.class is a template to construct objects.
+    2.once object created the memoty location will be allocated.
+    3.

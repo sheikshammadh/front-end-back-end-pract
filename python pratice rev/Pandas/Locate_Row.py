@@ -51,3 +51,4 @@ df=pnd.read_csv('D:\Learn - Full Stack\practices,front end and back end\python p
 '''
 df=pnd.read_csv('D:\Learn - Full Stack\practices,front end and back end\python pratice rev\Pandas\data.csv')
 print(df)
+

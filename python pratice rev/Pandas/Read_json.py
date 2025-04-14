@@ -213,3 +213,8 @@ df=pnd.read_json('D:\Learn - Full Stack\practices,front end and back end\python 
 # df=pnd.read_csv('D:\Learn - Full Stack\practices,front end and back end\python pratice rev\Pandas\data.csv')
 # print(df.add)
       #error.
+
+# ==========================================================================================\
+import pandas as pnd
+df=pnd.read_json('D:\Learn - Full Stack\practices,front end and back end\python pratice rev\Pandas\data.json')
+print(df.X)

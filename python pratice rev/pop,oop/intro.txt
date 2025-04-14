@@ -9,3 +9,8 @@ pop(procedure oriented programming):           oop(object oriented programming):
                                                  c.operator overloading
 
 
+To solve real world entity we use oop.
+pass: used to maintain a dummy block.
+class is a blueprint/plan/design/data Type, to construct Objects.
+
+
