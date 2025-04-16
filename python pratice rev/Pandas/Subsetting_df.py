@@ -6,3 +6,4 @@ row_labels=['a','b','c','d']
 column_hd=['z','y','x','w','v']
 df=pnd.DataFrame(data=matrix_data,index=row_labels,columns=column_hd)
 print(df)
+print(df.loc['a','v'])

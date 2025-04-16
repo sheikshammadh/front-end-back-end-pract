@@ -95,3 +95,23 @@ function call
 #     print(keywordArguments)
 # function(name="shyam", age=24, gender="male")
 
+# import random
+# even_numbers = [num for num in range(10, 21) if num % 2 == 0]
+# odd_numbers = [num for num in range(10, 21) if num % 2 != 0]
+
+# random.shuffle(even_numbers)
+# random.shuffle(odd_numbers)
+
+# print("Random Even Numbers:", even_numbers)
+# print("Random Odd Numbers:", odd_numbers)
+    
+
+import random
+
+def get_random_even_or_odd():
+    def even():
+      for i in range(10,20):
+          if i%2==0:
+            print("even")
+     
+get_random_even_or_odd()
