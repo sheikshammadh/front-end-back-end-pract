@@ -165,20 +165,18 @@
 # print(t1.__dict__)
 # print(t2.__dict__)
 
-class parent:
-    def m1(self):
-        print("parent meth m1")
-    def m2(self):
-        print("parent meth m2")
-class child(parent):
-    def m3(self):
-        print("child meth m3")
+# class parent:
+#     def m1(self):
+#         print("parent meth m1")
+#     def m2(self):
+#         print("parent meth m2")
+# class child(parent):
+#     def m3(self):
+#         print("child meth m3")
         
-a1=child()
-a1.m1()#parent meth m1
-a1.m2()#parent meth m2
-a1.m3()#child meth m3
-
-
+# a1=child()
+# a1.m1()#parent meth m1
+# a1.m2()#parent meth m2
+# a1.m3()#child meth m3
 
 
