@@ -138,32 +138,46 @@
 # inside a class - using class name
 
 
-class empl():
-    a=11
-    def __init__(self):
-        empl.b=101
-    def m1(self):
-        empl.c=100
-    @classmethod
-    def m2(cls):
-        cls.d=1000
-        empl.e=102
-    @staticmethod
-    def m3():
-        empl.f=12
+# class empl():
+#     a=11
+#     def __init__(self):
+#         empl.b=101
+#     def m1(self):
+#         empl.c=100
+#     @classmethod
+#     def m2(cls):
+#         cls.d=1000
+#         empl.e=102
+#     @staticmethod
+#     def m3():
+#         empl.f=12
     
-t1=empl()
-t2=empl()
-# t1.e=20
-t1.m1()
-t1.m2()
-t1.m3()
-empl.g=40
-# del t1.b
+# t1=empl()
+# t2=empl()
+# # t1.e=20
+# t1.m1()
+# t1.m2()
+# t1.m3()
+# empl.g=40
+# # del t1.b
 
-print(empl.__dict__)
-print(t1.__dict__)
-print(t2.__dict__)
+# print(empl.__dict__)
+# print(t1.__dict__)
+# print(t2.__dict__)
+
+class parent:
+    def m1(self):
+        print("parent meth m1")
+    def m2(self):
+        print("parent meth m2")
+class child(parent):
+    def m3(self):
+        print("child meth m3")
+        
+a1=child()
+a1.m1()#parent meth m1
+a1.m2()#parent meth m2
+a1.m3()#child meth m3
 
 
 
