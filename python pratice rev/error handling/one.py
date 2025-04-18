@@ -24,8 +24,11 @@ from insufficientbal import InsuffientBalErr as balerror
 #     print("check default error")
 # print("gm")
 
-try:
-    print(10/0)
+# try:
+#     print(10/0)
 
-except ZeroDivisionError as error:
-    print(error)
+# except ZeroDivisionError as error:
+#     print(error)
+
+
+

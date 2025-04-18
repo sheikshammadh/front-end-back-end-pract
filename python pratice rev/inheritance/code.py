@@ -128,28 +128,28 @@ hierarchical inhertance
 #     pass
     
 
-class Grandparent:
-    def m1(self):
-        print("A")
-class parent1(Grandparent):
-    def m2(self):
-        print("B")
-class parent2(Grandparent):
-    def m3(self):
-        print("C")
-class parent3(Grandparent):
-    def m4(self):
-        print("D")
-class child(parent1,parent2,parent3):
-    def m5(self):
-        print("E")
+# class Grandparent:
+#     def m1(self):
+#         print("A")
+# class parent1(Grandparent):
+#     def m2(self):
+#         print("B")
+# class parent2(Grandparent):
+#     def m3(self):
+#         print("C")
+# class parent3(Grandparent):
+#     def m4(self):
+#         print("D")
+# class child(parent1,parent2,parent3):
+#     def m5(self):
+#         print("E")
     
-c1=child()
-c1.m1()
-c1.m2()
-c1.m3()
-c1.m4()
-c1.m5()
+# c1=child()
+# c1.m1()
+# c1.m2()
+# c1.m3()
+# c1.m4()
+# c1.m5()
 
 
 
