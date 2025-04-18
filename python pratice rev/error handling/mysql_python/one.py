@@ -1,23 +1,47 @@
+
+# import mysql.connector
+# dbcon=None
+# try:
+#     dbcon=mysql.connector.connect(host='localhost',
+#                                   user='root',
+#                                   password='root',
+#                                   database='11am')
+#     cursor = dbcon.cursor()
+#     sql_st='''
+#             create table employee(
+#             eid int,
+#             ename varchar(32),
+#             esal float
+#             );
+#            '''
+#     cursor.execute(sql_st)
+#     dbcon.commit()
+#     print("Table Created Successfully")
+
+# except mysql.connector.DatabaseError as err:
+#     print(err.msg)
+
+# finally:
+#     pass
+
+
 import mysql.connector
-
-dbconnect=None
+dbcon=None
 try:
-    dbconnect=mysql.connector.connect(host='local host',user='root',password='root',database='11am')
-    if dbconnect.is_connected():
-        print("connected to database")
-        # cur=dbconnect.cursor()
-        # sql_stats='''
-        #         create table employee(
-        #         eid int,
-        #         ename varchar(32),
-        #         esal float);
-        #           '''
-        # cur.execute(sql_stats)
-        # dbconnect.commit()
-        # print("table created succesfully")
-        
+    dbcon=mysql.connector.connect(host='localhost',
+                                  user='root',
+                                  password='root',
+                                  database='11am')
+    cursor = dbcon.cursor()
+    sql_st='''insert into employee values(101,"shyam",45000),(102,"sham",45000),
+    (103,"shya",45000),(103,"hyam",45000)'''
+           
+    cursor.execute(sql_st)
+    dbcon.commit()
+    print("data inserted succesfully Successfully")
 
-except mysql.connector.Error as err:
-    print("error")
+except mysql.connector.DatabaseError as err:
+    print(err.msg)
+
 finally:
     pass
