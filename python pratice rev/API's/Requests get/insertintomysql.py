@@ -89,6 +89,4 @@ try:
     dbcon.commit()
     print("Data inserted successfully!")
 
-except mysql.connector.DatabaseError as err:
-    print(f"Database error: {err}")
 
