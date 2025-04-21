@@ -63,30 +63,3 @@
 #     dbcon.close()
 
 
-import mysql.connector,requests
-
-
-# Fetch data
-data = requests.get('https://dummyjson.com/products')
-products = data.json() 
-new_products = []
-if 'products' in products:  
-    for prod in products['products']:  
-        new_products.append((prod['id'],prod['title'],prod['category'],prod['price'],prod['rating']))
-
-# Load data into MySQL
-try:
-    dbcon = mysql.connector.connect(
-        host='localhost',
-        user='root',
-        password='root',
-        database='4pm'
-    )
-    cursor = dbcon.cursor()
-    sql_st = '''INSERT INTO prods (id, title, category, price, rating) VALUES (%s, %s, %s, %s, %s);'''
-
-    cursor.executemany(sql_st, new_products)  # Insert extracted data
-    dbcon.commit()
-    print("Data inserted successfully!")
-
-
