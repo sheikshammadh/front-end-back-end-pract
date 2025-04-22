@@ -65,16 +65,16 @@
 
 import mysql.connector,requests
 
-
-# Fetch data
 data = requests.get('https://dummyjson.com/products')
 products = data.json() 
 new_products = []
-if 'products' in products:  
-    for prod in products['products']:  
-        new_products.append((prod['id'],prod['title'],prod['category'],prod['price'],prod['rating']))
 
-# Load data into MySQL
+for prod in products['products']:  
+    new_products.append((prod['id'],prod['title'],prod['category'],prod['price'],prod['rating']))
+# print(type(new_products))
+# print(len(new_products))
+# status_code=data.status_code
+# print(status_code)
 try:
     dbcon = mysql.connector.connect(
         host='localhost',
@@ -83,10 +83,10 @@ try:
         database='4pm'
     )
     cursor = dbcon.cursor()
-    sql_st = '''INSERT INTO prods (id, title, category, price, rating) VALUES (%s, %s, %s, %s, %s);'''
+    sql_st = '''INSERT INTO prods VALUES (%s, %s, %s, %s, %s);'''
 
-    cursor.executemany(sql_st, new_products)  # Insert extracted data
+    cursor.executemany(sql_st, new_products)
     dbcon.commit()
     print("Data inserted successfully!")
-
-
+finally:
+    dbcon.close()
