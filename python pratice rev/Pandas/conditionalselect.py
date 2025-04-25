@@ -10,6 +10,4 @@ print(df>=1)
 print(df<=1)
 print(df.loc["c","y"])
 # print(df.loc["c","y"])
-print(df.loc["c","y"])
-print(df.loc["c","y"])
 
