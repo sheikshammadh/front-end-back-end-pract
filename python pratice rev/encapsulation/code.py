@@ -24,3 +24,17 @@ class B1(A1):
 d=B1(5,6)
 d.output()#6(5 stored in "a" and 6 stored in "b") it gives output bcz it is private.
 d.output()#'B1' object has no attribute '_B1__a'.   it doesnr give bcz it is protected.
+
+
+class emp:
+    def set_ename(self,name):
+        self.set_ename=name
+    def get_ename(self):
+        return self.set_ename
+e1=emp()
+e1.set_ename("shyam")
+print(e1.get_ename())
+
+e2=emp()
+e2.set_ename("asdfghjkl")
+print(e2.get_ename())

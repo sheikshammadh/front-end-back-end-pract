@@ -1,5 +1,7 @@
 Encapsulation:
 wrapping of variables and methods into single unit.
+Binding data and method as a single unit.
+
 
 Access specifiers:
    1.public
@@ -12,5 +14,8 @@ capsulation:as one capsule.
    _________________________
    |_methods_|___variables_|→ adding the methods and variables into single unit.
 
+
+methods:
+Getters & setters
 
    
