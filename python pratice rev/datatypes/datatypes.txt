@@ -8,7 +8,7 @@ stored in memory.
 2.float(dec.numb)                 tuple()                none
 3.boolean(true[1],false[0])       set{} ||mutable||      bites    
 4.string("text")                  dict{} ||mutable||     bytearray ||mutable||
-5.complex(1[real],3j[imaginary])                         
+5.complex(1[real],3j[imaginary])                         Range 
 
 Mutability:
     We can change the values or data by using some methods is called as Mutability.

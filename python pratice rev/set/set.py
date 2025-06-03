@@ -79,12 +79,14 @@ s2={123,456,678,345,12345}
 
 s1={10,20,30,40}
 s2={30,40,50,60}
-# print(s1.union(s2))#{40, 10, 50, 20, 60, 30}
-# print(s1.intersection(s2))#{40, 30}
-# print(s1.difference(s2))#{10, 20}
+#print(s1.union(s2))#{40, 10, 50, 20, 60, 30} after 3.7 plus python version
+#print(s1.intersection(s2))#{40, 30}
+# print(s1.difference(s2))#{10,20}
+
 # print(s1.symmetric_difference(s2))#{10, 50, 20, 60}
-# print(s1+s2)#TypeError: unsupported operand type(s) for +: 'set' and 'set'.
 # print(s1 and s2)#{40, 50, 60, 30}
+
+# print(s1+s2)#TypeError: unsupported operand type(s) for +: 'set' and 'set'.
 # print(s1||s2)#SyntaxError: invalid syntax
 # print(s1-s2)#{10, 20}
 # print(s1^s2)#{10, 50, 20, 60}

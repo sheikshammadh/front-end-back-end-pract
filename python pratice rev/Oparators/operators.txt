@@ -1,4 +1,5 @@
 operators types:
+to perform operatins between 2 values.
      1.Assignment op.   (=,+=,-=,*=,/=)
      2.Arithmatic op.   (+,-,*,/,//,**,)  [/ gives and // gives]
      3.Logical op.      (AND,OR,NOT,NOR)  [gives result as True or False.]

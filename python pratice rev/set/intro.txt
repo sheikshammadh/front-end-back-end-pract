@@ -9,7 +9,7 @@ compound data type.
 
 set methods:
 add()  add single element.
-update()  add one or more iterable on=bjects.
+update()  add one or more iterable objects.
 pop()  removes the last element but we cant predict he element. orbitory element.
 Discard()   removes the specified element.
 clear()   clear all the elements from the set and gives empty set.

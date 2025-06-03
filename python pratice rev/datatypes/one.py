@@ -105,4 +105,6 @@
 # print(a)#None
 # print(type(a))#none type
 
-
+a='q'
+b=''
+print(a+b)
