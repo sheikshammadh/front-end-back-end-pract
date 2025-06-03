@@ -1,0 +1,13 @@
+denoted with ()
+allow different types of elements.(int,float,string......etc)
+it allows duplicates.
+allow index and slicing.
+immutable.
+no methods we can use.
+uses only built-in methods.
+tuple operations:
+   1.concatenation( adding of )
+   2.iteration
+   3.membership operations
+   4.identity operations
+   5.repetetion
